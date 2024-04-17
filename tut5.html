@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html class="overflow-y-scroll scrollbar-thin scrollbar-webkit" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon (1)-Zr-_VaIW.ico">
+    <title>Sixty News: AI-Powered Summaries of Pakistan&#x27;s Latest News in 60 Words</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-9cTCmAd0.css">
+</head>
+
+<body class="font-serif w-fit">
+    <div class="bg-[#111111]">
+        <div class="navbar flex justify-between">
+            <div class="left mx-3 my-[26px] md:mx-10 md:my-9 lg:mx-10 lg:my-9">
+                <img class="h-4 w-6 cursor-pointer" src="/assets/clipart365828-zRL-KGoS.png" alt="Hamburger">
+            </div>
+            <div class="center mt-3 ml-5 md:ml-36 md:mt-6 lg:ml-36 lg:mt-6">
+                <img class="h-12 w-14 cursor-pointer" src="/assets/Vector-CP7tjcap.png" alt="Logo">
+            </div>
+            <div class="right mx-0 my-[22px] md:mx-6 md:my-7 lg:mx-6 lg:my-7 flex align-baseline">
+                <img class="h-6 w-6 mt-1 mx-2 md:mx-3 lg:mx-3 hover:-translate-y-1 cursor-pointer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAA7EAAAOxAGVKw4bAAABtUlEQVRIicWUMWobURCG5xmzhXGlOgcIRgfYYhEqgvEVjK+SSwQjhElhXOkIKYRxk8J9KhfGGNQYFSnEFrLg/1x4lgxCu3obDJ7q8faf+WZmZ16yLQMOzawyswugNLMvKSUDFimlezObmdnvlNLrtu9eA74Cv4A1LSZpDcyBYd/gJfASArHrHO6WQJWduaSXEKgGriSNJA2AgaQRMJFUN1CHdFcCHHpbGnsGxsAurQEV8BT0t0DRBRgDa8++BsYZFVfAyn02wGmX+Gfo89WuzFsqufQ2AVx3if+EHzfaG/2fXxna9NAl/BsAgx6A4zgUbbqD4GAppdz4EdT5/QBYmJn5tp70iH2SUmqSWrQCfP3NIec5P1mS2ftT0lzdt4qBb5LWPhF1znYCpaSV+2yAsy5xIWkeJuJJUrWrEknN9DwG/V3nojlkCCzDVKwkXUoqgWOfmBL4IWkVpg5gthfgkMrfFsICZZ2B61zI0N+WDe228bbMtu6nwFEOpABOPasH3t+n2s83wJlrCtfEdk2zKsk1h0z/q109IEeeef929YB8WrsmHwZwyHa7lh8KcEgBTIAl8P0NVe1O5yrMU2cAAAAASUVORK5CYII=" alt="Search">
+                <img class="h-8 w-8 mx-3 md:mx-3 lg:mx-3 cursor-pointer" src="/assets/abc-zCHawcqC.png" alt="Color">
+                <button class="bg-[#d9d9d9] hover:-translate-y-1 mx-2 px-3 py-1 hidden md:block lg:block">ENG</button>
+                <button
+                    class="bg-[#000000] hover:-translate-y-1 hover:transition mx-2 px-4 py-1.5 text-white hidden md:block lg:block">اردو</button>
+            </div>
+        </div>
+        <div class="salam mt-11 mb-[60px] md:mt-12 md:mb-14 lg:mt-12 lg:mb-14 flex justify-center items-center">
+            <img class="w-[200px] h-10" src="data:image/png;base64,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" alt="">
+        </div>
+        <div class="sidenav h-[100%] w-[22%] bg-[#000000] absolute top-0 overflow-y-scroll scrollbar-thin scrollbar-webkit hidden">
+            <div class="mt-10">
+                <img class="ml-[228px] w-8 h-8 cursor-pointer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAE10lEQVR4nO1bzW8bRRRfiVSUG4V/gbZIHHMCikxViGdsUMJHOBU4AC2FA3cQUoWSC7dWFWBRed6WRpFcz1sHBVAp1UqoSpuUmCSoqKpKmqYqFSDlq6FxSOxFb50P13b8Obs7wfykJ1myZ9a/376ZfW/eW8P4H97igImPMpAvcSGPcsB+DjjKQU4zIWe4kDky9zPI6fx32E+/pTE01tiO6BDJx5nAXgbyZwaY5YBOI+aOFZjmIHvCJ1N7DZ3RHovtYCa+yYUcbpRwVUGEvMRBvhGy7TZDK+KARzjIG14RLzEhJ8MgDwcuRDhuPcNATvhGvEQIHGcm7vOdeHci8RAX+IW7iQVFftMbaCP9LCTETl/Ih0+m9nLAscCJl5i8EoYzT3hKngnrAAO5EDzZLb1hPgLJ/Z6Q58Lq4oBLgZOsYkzgcgTwNaXkmcBuJnA1aHJ1iLDKhfWKEvIRSO7nIDNBk2rEE3hcPt98RAcar/nqNheNJ3c3RD4kxE4KZTUg0ZwngJygx3bdAnB6zgfwh98bOO8cG0o7H5694Lx4KqVIBDxRF3lm4j6/g5yIaTmpX687OWcTN2cXnMOpc83PL2QuEreeqs31bbvN70CHyJ+9NuWUw+35u07X6QEFXiAnKG+pfveBEhsfyQM631yddCqhx76kaClYhyqSb4/FdviZ1VW684Uw01cUCYC/VcwgGeXzmpEnfPT9BXXXFcnXtxSAA47oRv7i9O/uMlF2fSGHypM3cY8ua34d6dt/OJ1fNb8BFlvZ4zUmsLcVyJMxwE/Kuf9YK5B3BRB4uczRNWZbgfyaAKvRvsFdGwKE4/hyq5DfMGF1bbp/vmjROuRdAeTHheu/v6XI5+10oQCjLUb+/o2QC7ylknytQU5Q5NcEuFnoAXOqJv58eFx78nkB5EzhJriiauKrf81oT941IVc8EeDPxXsVydOBxweDdrDkSwQAdUuAkpdqmF3KOO+mfghUgKIlgMo2wfe/Pu+sZLPai1C8CY6qnJxOcGoRYW4p4xwZCEaE+x+DoD4Q2gYiFARCHoXCWotQGAozamLy6EK6ihAxsXNDgI4vE494mQ7XI4IfG2NJOkzwugxWqwg+PR1GjGJwkD1eK6+NCEIeDexQtEcHEUzcUyIAwcsev0LrtYed1Vyuugj3Ms4h65zqu1/+WJxATYh+CFCPCHfu/q2kNrhuDPCgUbE0JuSkbiJ8+uNlf0pjBOrA9EuAWkWIjUwoup5829CxPN5bRQQV6TOVx2tureUi+bTfDRJbiWBP3lLh+tmwiU/WRH4d1H7qpwBkVAW+s7DoEl9c/sc588s1VW0yx41GmqS426vvrwhkBxPfOS+Ylpr5BI431CS1ERwJOR+ECCqMgZztODXwmNEMwsJ6dju0yJaQF7gcNpPPGSrAQL663Vplqd5ptGKzNAeZUd4sXbQc5rS98yBnmYkhw0tE48ndWrbQCkw3veHV10eMJ3R4ZWbtJOs4O/btg4bfiILV7ldn2RY2VnMLrFcIUe4g8B3KtPxzd3mdCeut7kTiAUMXhGy7jZoQOeBFD4kPUT4f+PuCtUSQ1IpG1Zdm4gcaS3PQGV7DLz4EjWjf4C46g6dCBAPsYyB/YoBTVJykDcy1/OcpVzDAPvotjekU1sNB/3/jv45/AS9f7Zcjr1UoAAAAAElFTkSuQmCC" alt="back"><br>
+                <button class="text-black ml-10 bg-white text-lg px-11 py-1.5">Topics</button>
+                <ul class="text-white text-center flex items-center flex-col">
+                    <span class="mt-7 cursor-pointer px-2 py-2.5 hover:bg-[#3F704D]">#Pakistan</span>
+                    <span class="mt-2 cursor-pointer px-2 py-2.5 hover:bg-[#3F704D]">#International</span>
+                    <span class="mt-2 cursor-pointer px-2 py-2.5 hover:bg-[#3F704D]">#Politics</span>
+                    <span class="mt-2 cursor-pointer px-2 py-2.5 hover:bg-[#3F704D]">#Science&Technology</span>
+                    <span class="mt-2 cursor-pointer px-2 py-2.5 hover:bg-[#3F704D]">#Crime&Justice</span>
+                    <span class="mt-2 cursor-pointer px-2 py-2.5 hover:bg-[#3F704D]">#Economy</span>
+                    <span class="mt-2 cursor-pointer px-2 py-2.5 hover:bg-[#3F704D]">#Finance</span>
+                    <span class="mt-2 cursor-pointer px-2 py-2.5 hover:bg-[#3F704D]">#Health</span>
+                    <span class="mt-2 cursor-pointer px-2 py-2.5 hover:bg-[#3F704D]">#Lifestyle</span>
+                    <span class="mt-2 cursor-pointer px-2 py-2.5 hover:bg-[#3F704D]">#Arts&Entertainment</span>
+                    <span class="mt-2 mb-8 cursor-pointer px-2 py-2.5 hover:bg-[#3F704D]">#Sports</span>
+                </ul>
+            </div>
+        </div>
+        <div class="rule text-gray-400 ml-[30%] mb-10 flex justify-center items-center">
+            <p class="mr-[20px] text-[16px] md:text-lg lg:text-lg">Today</p>
+            <hr class="flex-grow border-gray-400">
+        </div>
+        <div class="ml-0 main md:ml-16 lg:ml-16">
+            <div class="first flex flex-col md:flex-row lg:flex-row justify-center mb-[56px] md:mb-[88px] lg:mb-[88px]">
+                <div class="leftimage">
+                    <img class="w-full h-[280px] md:w-[360px] md:h-[288px] lg:w-[360px] lg:h-[288px]" src="/assets/3964-462-7482-CnXP1xaQ.jpg" alt="Image">
+                </div>
+                <div class="rightcontent ml-4 mr-4 mt-4 md:w-[65%] lg:w-[65%] md:ml-14 md:mt-0 md:mr-0 lg:ml-14 lg:mt-0 lg:mr-0">
+                    <h1 class="text-white text-xl mb-2 md:text-3xl md:mb-2 lg:text-3xl lg:mb-2">Imran Khan nominates Ali Amin Gandapur as PTI candidate for KP
+                        CM.</h1>
+                    <p class="text-sm text-white mb-5 md:mb-4 lg:mb-4">https://24newshd.tv/13-Feb-202....</p>
+                    <p class="text-white text-base md:text-xl lg:text-xl mb-10 md:mb-1 lg:mb-1">PTI founder chairman Imran Khan has nominated Ali Amin Gandapur
+                        as the PTI candidate for the Chief Minister of Khyber Pakhtunkhwa. Khan also ruled out any
+                        cooperation with PML-N, PPP, and MQM-P. He accused the Sharif family of being the country's
+                        biggest money-launderers. The PHC has granted bail to Gandapur in 24 cases. PTI leader Latif
+                        Khosa stated that if they gain support from 50 more members, they will stake claim at the
+                        Centre, otherwise they will sit in the opposition.</p>
+                    <button
+                        class="text-white ml-2.5 md:ml-0 lg:ml-0 px-2 md:px-4 py-1 mr-2 md:mr-3 hover:-translate-y-1 hover:transition border border-gray-400 text-[12px] md:text-sm">ImranKhan</button>
+                    <button
+                        class="text-white px-2 md:px-4 py-1 mr-2 md:mr-3 hover:-translate-y-1 hover:transition border border-gray-400 text-[12px] md:text-sm">AliAminGandapur</button>
+                    <button
+                        class="text-white px-2 md:px-4 py-1 mr-2 md:mr-3 hover:-translate-y-1 hover:transition border border-gray-400 text-[12px] md:text-sm">PTI</button>
+                    <button
+                        class="text-white px-4 py-1 mr-3 hover:-translate-y-1 hover:transition border border-gray-400 text-sm hidden md:inline-block lg:inline-block">KPCM</button>
+                    <button
+                        class="text-white px-4 py-1 hover:-translate-y-1 hover:transition border border-gray-400 text-sm hidden md:inline-block lg:inline-block">PML-N</button>
+                    <button class="text-gray-400 block mt-10 md:inline lg:inline cursor-text font-[lora] md:ml-24 lg:ml-24 text-[14px]">
+                        <img class="cursor-default w-4 h-4 inline mr-1.5 mb-1" src="/assets/kindpng_101445-BOi3NXgr.png" alt="clock">
+                        <span>24m ~ Feb 15 - 3PM</span>
+                    </button>
+                </div>
+            </div>
+            <div class="second flex flex-col md:flex-row lg:flex-row justify-center mb-[56px] md:mb-[88px] lg:mb-[88px]">
+                <div class="leftimage">
+                    <img class="w-full h-[280px] md:w-[360px] md:h-[288px] lg:w-[360px] lg:h-[288px]" src="/assets/hbluwibckpprnpujxclr-CN5vqfmu.webp" alt="Image">
+                </div>
+                <div class="rightcontent ml-4 mr-4 mt-4 md:w-[65%] lg:w-[65%] md:ml-14 md:mt-0 md:mr-0 lg:ml-14 lg:mt-0 lg:mr-0">
+                    <h1 class="text-white text-xl mb-2 md:text-3xl md:mb-2 lg:text-3xl lg:mb-2">Man Commits Suicide After Killing Wife and Children in Chakwal.
+                    </h1>
+                    <p class="text-sm text-white mb-5 md:mb-4 lg:mb-4">https://humnews.pk/pakistan/ma....</p>
+                    <p class="text-white text-base md:text-xl lg:text-xl mb-10 md:mb-1 lg:mb-1">A man in Chakwal city, Pakistan committed suicide after killing
+                        his wife and four young children. The incident occurred in Muzdalfa Town and the man alerted the
+                        police before taking his own life. Investigators believe poverty may have been the motive for
+                        the killings. The tragedy has shocked the community and sent shockwaves throughout the city.</p>
+                    <button
+                        class="text-white ml-2.5 md:ml-0 lg:ml-0 px-2 md:px-4 py-1 mr-2 md:mr-3 hover:-translate-y-1 hover:transition border border-gray-400 text-[12px] md:text-sm">Chakwal</button>
+                    <button
+                        class="text-white px-2 md:px-4 py-1 mr-2 md:mr-3 hover:-translate-y-1 hover:transition border border-gray-400 text-[12px] md:text-sm">Pakistan</button>
+                    <button
+                        class="text-white px-2 md:px-4 py-1 mr-2 md:mr-3 hover:-translate-y-1 hover:transition border border-gray-400 text-[12px] md:text-sm">murder-suicide</button>
+                    <button
+                        class="text-white px-4 py-1 mr-3 hover:-translate-y-1 hover:transition border border-gray-400 text-sm hidden md:inline-block lg:inline-block">familytragedy</button>
+                    <button
+                        class="text-white px-4 py-1 hover:-translate-y-1 hover:transition border border-gray-400 text-sm hidden md:inline-block lg:inline-block">poverty</button>
+                    <button class="text-gray-400 block mt-10 md:inline lg:inline cursor-text font-[lora] md:ml-24 lg:ml-24 text-[14px]">
+                        <img class="w-4 h-4 cursor-default inline mr-1.5 mb-1" src="/assets/kindpng_101445-BOi3NXgr.png" alt="clock">
+                        <span>3h ~ Feb 15 - 1PM</span>
+                    </button>    
+                </div>
+            </div>
+            <div class="third flex flex-col md:flex-row lg:flex-row justify-center mb-[56px] md:mb-[88px] lg:mb-[88px]">
+                <div class="leftimage">
+                    <img class="w-full h-[280px] md:w-[360px] md:h-[288px] lg:w-[360px] lg:h-[288px]" src="/assets/lsrqx4jyrd1jl7qnrmqo-BbMqgD3v.webp" alt="Image">
+                </div>
+                <div class="rightcontent ml-4 mr-4 mt-4 md:w-[65%] lg:w-[65%] md:ml-14 md:mt-0 md:mr-0 lg:ml-14 lg:mt-0 lg:mr-0">
+                    <h1 class="text-white text-xl mb-2 md:text-3xl md:mb-2 lg:text-3xl lg:mb-2">Pneumonia Claims Six More Lives in Punjab, Pakistan.</h1>
+                    <p class="text-sm text-white mb-5 md:mb-4 lg:mb-4">https://arynews.tv/pneumonia-c....</p>
+                    <p class="text-white text-base md:text-xl lg:text-xl mb-10 md:mb-1 lg:mb-1">Six more children have died from pneumonia in Punjab, bringing
+                        the total number of deaths to 347. The Punjab Health Department reported 475 new cases of
+                        pneumonia, with 175 cases in Lahore alone. Pneumonia is an infection in the lungs, often caused
+                        by viruses, and is more common in children aged five and younger. Health authorities are urging
+                        public awareness and preventive measures to control the spread of the infection.</p>
+                    <button
+                        class="text-white ml-2.5 md:ml-0 lg:ml-0 px-2 md:px-4 py-1 mr-2 md:mr-3 hover:-translate-y-1 hover:transition border border-gray-400 text-[12px] md:text-sm">Pneumonia</button>
+                    <button
+                        class="text-white px-2 md:px-4 py-1 mr-2 md:mr-3 hover:-translate-y-1 hover:transition border border-gray-400 text-[12px] md:text-sm">Punjab</button>
+                    <button
+                        class="text-white px-2 md:px-4 py-1 mr-2 md:mr-3 hover:-translate-y-1 hover:transition border border-gray-400 text-[12px] md:text-sm">children</button>
+                    <button
+                        class="text-white px-4 py-1 mr-3 hover:-translate-y-1 hover:transition border border-gray-400 text-sm hidden md:inline-block lg:inline-block">deaths</button>
+                    <button
+                        class="text-white px-4 py-1 hover:-translate-y-1 hover:transition border border-gray-400 text-sm hidden md:inline-block lg:inline-block">infection</button>
+                    <button class="text-gray-400 block mt-10 md:inline lg:inline cursor-text font-[lora] md:ml-24 lg:ml-24 text-[14px]">
+                        <img class="w-4 h-4 cursor-default inline mr-1.5 mb-1" src="/assets/kindpng_101445-BOi3NXgr.png" alt="clock">
+                        <span>2d ~ Feb 13 - 7PM</span>
+                    </button>    
+                </div>
+            </div>
+        </div>
+        <div class="footer h-[276px] md:h-48 md:w-[100%] lg:h-48 lg:w-[100%] bg-black text-sm bg static bottom-0 flex flex-col md:flex-row lg:flex-row">
+            <div class="leftlogo flex justify-center mt-4 mb-4 md:ml-10 md:mb-0 md:mt-6 lg:ml-10 lg:mb-0 lg:mt-6">
+                <img class="w-20 h-16 cursor-pointer" src="/assets/Vector-CP7tjcap.png" alt="Sixty">
+            </div>
+            <div class="rightcontent text-center md:text-start md:ml-14 md:mt-3 lg:ml-14 lg:mt-3 text-white text-base md:text-lg lg:text-lg">
+                <p>Autonomous AI based, minimal news portal for busy individuals</p>
+                <div class="flex mt-6 justify-center md:justify-between md:mt-2 lg:mt-2 text-[16px]">
+                    <p class="mx-5 md:mx-0 lg:mx-0 cursor-pointer">Privacy Policy</p>
+                    <p class="mx-5 md:mx-0 lg:mx-0 cursor-pointer">Terms & Conditions</p>
+                    <p class="mx-5 md:mx-0 lg:mx-0 cursor-pointer">Status</p>
+                    <p class="mx-5 md:mx-0 lg:mx-0 cursor-pointer">Support</p>
+                </div>
+                <p class="mt-6 md:mt-3 lg:mt-3 cursor-pointer"><img class="w-6 h-4 mb-1 inline" src="/assets/Email-CJ1LxhAx.png" alt="email"><span class="ml-4">info@sixty.pk</span></p>                
+            </div>
+        </div>
+</body>
+
+</html>
